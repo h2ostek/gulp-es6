@@ -1,0 +1,72 @@
+{
+  "name": "kea",
+  "version": "1.0.0",
+  "description": "KEA Home Improvements Company Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Handyman",
+    "Kitchens",
+    "Baths",
+    "Renovations",
+    "Additions",
+    "Basements",
+    "Decks",
+    "Outdoor",
+    "Kitchens",
+    "ADA"
+  ],
+  "author": "Mark Waters Consulting, LLC",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/h2ostek/gulp-es6"
+	},
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.23.6",
+    "browserify": "^16.1.0",
+    "browserify-shim": "^3.8.14",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-options": "^1.1.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.9",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+	"babel": {
+		"presets": [
+			"env"
+		]
+	},
+	"browserify": {
+		"transform": [
+			"browserify-shim"
+		]
+	},
+	"browser": {
+		"jquery": "./node_modules/jquery/dist/jquery.js"
+	},
+	"browserify-shim": {
+		"jquery": "$"
+	}
+}
