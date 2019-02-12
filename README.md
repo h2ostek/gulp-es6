@@ -6,4 +6,4 @@ Gulpfile setup for Javascript ES6 compiling, plus SCSS, Images, and Fonts handli
 
 After downloading to your directory, from command prompt, just run "npm install"
 
-[@Alecaddd] (https://github.com/Alecaddd/gulp-es6), Thanks for doing all the heavy lifting!
+[Alecaddd](https://github.com/Alecaddd/gulp-es6), Thanks for doing all the heavy lifting!
