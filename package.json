@@ -1,61 +1,44 @@
 {
-  "name": "kea",
-  "version": "1.0.0",
-  "description": "KEA Home Improvements Company Website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Handyman",
-    "Kitchens",
-    "Baths",
-    "Renovations",
-    "Additions",
-    "Basements",
-    "Decks",
-    "Outdoor",
-    "Kitchens",
-    "ADA"
-  ],
-  "author": "Mark Waters Consulting, LLC",
-  "repository": {
+	"name": "v4-gulp-es6",
+	"version": "1.1.0",
+	"description": "v4 Gulpfile setup for Javascript ES6 compiling, plus SCSS, Images, and 
+        Fonts handling. Thanks to @Alecaddd for doing the heavy lifting...",
+	"author": "Mark Waters <h2ostek@gmail.com> (https://h2ostekit.com)",
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/h2ostek/gulp-es6"
 	},
-  "license": "GPL-3.0",
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babelify": "^8.0.0",
-    "browser-sync": "^2.23.6",
-    "browserify": "^16.1.0",
-    "browserify-shim": "^3.8.14",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-if": "^2.0.2",
-    "gulp-notify": "^3.2.0",
-    "gulp-options": "^1.1.1",
-    "gulp-plumber": "^1.2.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-strip-debug": "^3.0.0",
-    "gulp-uglify": "^3.0.0",
-    "gulp-uglifycss": "^1.0.9",
-    "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
-  },
-  "dependencies": {
-    "bootstrap": "^4.0.0",
-    "gulp-cache": "^1.0.2",
-    "gulp-imagemin": "^4.1.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
-  },
+	"keywords": [
+		"gulp",
+		"es6",
+		"scss"
+	],
+	"devDependencies": {
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.2.3",
+		"babelify": "^10.0.0",
+		"browser-sync": "^2.26.3",
+		"browserify": "^16.2.3",
+		"browserify-shim": "^3.8.14",
+		"gulp": "^4.0.0",
+		"gulp-autoprefixer": "^6.0.0",
+		"gulp-concat": "^2.5.2",
+		"gulp-if": "^2.0.2",
+		"gulp-notify": "^3.0.0",
+		"gulp-options": "^1.1.1",
+		"gulp-plumber": "^1.2.1",
+		"gulp-rename": "^1.2.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.1",
+		"gulp-strip-debug": "^3.0.0",
+		"gulp-uglify": "^3.0.0",
+		"gulp-uglifycss": "^1.0.9",
+		"vinyl-buffer": "^1.0.0",
+		"vinyl-source-stream": "^2.0.0"
+	},
 	"babel": {
 		"presets": [
-			"env"
+			"@babel/preset-env"
 		]
 	},
 	"browserify": {
@@ -68,5 +51,6 @@
 	},
 	"browserify-shim": {
 		"jquery": "$"
-	} 
+	},
+	"license": "GPL-3.0"
 }
