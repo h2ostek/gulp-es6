@@ -1,6 +1,6 @@
 # Package.json
 ## gulp-es6
-Gulpfile setup for Javascript ES6 compiling, plus SCSS, images, and fonts handling.
+Gulpfile setup for Javascript ES6 compiling, plus SCSS, Images, and Fonts handling.
 
 > Updated to use Gulp v4!
 
